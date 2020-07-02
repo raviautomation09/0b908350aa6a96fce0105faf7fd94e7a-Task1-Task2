@@ -1,0 +1,44 @@
+2020-06-30 21:23:31,305[INFO ] [main] [MainDriver.java:75] - Creating object repository object....
+2020-06-30 21:23:31,314[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-06-30 21:23:31,314[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-06-30 21:23:31,314[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T AutomateIOTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-06-30 21:23:31,314[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-06-30 21:23:31,316[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-06-30 21:23:31,342[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-06-30 21:23:31,343[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-06-30 21:23:31,343[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T PerformTask2       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-06-30 21:23:31,343[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-06-30 21:23:31,344[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-06-30 21:23:31,344[INFO ] [main] [AutomateIOTest.java:52] - Fetching the login credentials..
+2020-06-30 21:23:31,451[INFO ] [main] [ServicesKeywords.java:55] - Loading URL :https://api.automate.io/auth/login
+2020-06-30 21:23:31,451[INFO ] [main] [ServicesKeywords.java:56] - Request is :Login
+2020-06-30 21:23:31,458[INFO ] [main] [ServicesKeywords.java:62] - Successfully loaded Below request:
+{
+  "email": "${emailID}",
+  "password": "${password}"
+}
+2020-06-30 21:23:31,461[INFO ] [main] [ServicesKeywords.java:66] - ---------------------------------------------------------------------------------------
+2020-06-30 21:23:31,463[INFO ] [main] [ServicesKeywords.java:111] - Substituting Key:emailID --> Value:raviauto09@gmail.com
+2020-06-30 21:23:31,463[INFO ] [main] [ServicesKeywords.java:113] - Substituted payLoad is:{email: "raviauto09@gmail.com", password: "${password}"}
+2020-06-30 21:23:31,463[INFO ] [main] [ServicesKeywords.java:114] - ---------------------------------------------------------------------------------------
+2020-06-30 21:23:31,464[INFO ] [main] [ServicesKeywords.java:111] - Substituting Key:password --> Value:2589243m
+2020-06-30 21:23:31,464[INFO ] [main] [ServicesKeywords.java:113] - Substituted payLoad is:{email: "raviauto09@gmail.com", password: "2589243m"}
+2020-06-30 21:23:31,464[INFO ] [main] [ServicesKeywords.java:114] - ---------------------------------------------------------------------------------------
+2020-06-30 21:23:31,464[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Content-Type:application/json
+2020-06-30 21:23:31,465[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-06-30 21:23:31,467[INFO ] [main] [ServicesKeywords.java:131] - ---------------------------------------------------------------------------------------
+2020-06-30 21:23:31,467[INFO ] [main] [ServicesKeywords.java:132] - Posting Request to URL:https://api.automate.io/auth/login
+2020-06-30 21:23:34,692[INFO ] [main] [ServicesKeywords.java:138] - Response Code from the Server is:[500]
+2020-06-30 21:23:34,693[INFO ] [main] [ServicesKeywords.java:140] - Response from Server is:
+{
+  "error": {
+    "message": "Unexpected token e in JSON at position 1"
+  },
+  "status": "error"
+}
+2020-06-30 21:23:34,694[INFO ] [main] [ServicesKeywords.java:142] - ---------------------------------------------------------------------------------------
+2020-06-30 21:23:37,708[ERROR] [main] [ServicesKeywords.java:196] - Server code did not matched: Expected[200] ---> Actual[500]
+2020-06-30 21:23:37,727[ERROR] [main] [TestListener.java:30] - ***** Error PerformTask2 test has failed *****
+2020-06-30 21:23:37,728[ERROR] [main] [TestListener.java:42] - Closing Driver Object:null
+2020-06-30 21:23:37,809[INFO ] [main] [TestListener.java:191] - ****************** End of the Suite [AutomateIOTest] ************************
+2020-06-30 21:23:38,079[INFO ] [main] [Executor.java:461] - ************ [Total Execution Time-0:0:10] *******************]

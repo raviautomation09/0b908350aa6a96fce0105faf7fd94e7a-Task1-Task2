@@ -1,0 +1,136 @@
+2020-06-29 14:02:09,693[INFO ] [main] [MainDriver.java:75] - Creating object repository object....
+2020-06-29 14:02:09,704[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-06-29 14:02:09,705[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-06-29 14:02:09,705[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T AutomateIOTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-06-29 14:02:09,705[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-06-29 14:02:09,706[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-06-29 14:02:09,740[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-06-29 14:02:09,741[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-06-29 14:02:09,741[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T PerformTask1       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-06-29 14:02:09,742[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-06-29 14:02:09,742[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-06-29 14:02:09,877[DEBUG] [main] [MainDriver.java:139] - Opening browser
+2020-06-29 14:02:25,015[INFO ] [main] [AutomateIOTest.java:30] - Fetching the login credentials..
+2020-06-29 14:02:25,022[INFO ] [main] [AutomateIOTest.java:35] - TestStep 1:Login to application
+2020-06-29 14:02:25,023[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtEmailID
+2020-06-29 14:02:25,126[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: email
+2020-06-29 14:02:25,191[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: email
+2020-06-29 14:02:25,336[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtPassword
+2020-06-29 14:02:25,337[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: password
+2020-06-29 14:02:25,377[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: password
+2020-06-29 14:02:25,459[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:25,461[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()='LOGIN']
+2020-06-29 14:02:25,504[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()='LOGIN']
+2020-06-29 14:02:25,595[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:25,599[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 30Secs..
+2020-06-29 14:02:25,600[INFO ] [main] [XMLObjectRepository_Web.java:116] - Locator Value :By.linkText: Create a Bot
+2020-06-29 14:02:27,419[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-06-29 14:02:27,422[INFO ] [main] [AutomateIOTest.java:37] - TestStep 1: PASSED
+2020-06-29 14:02:27,422[INFO ] [main] [AutomateIOTest.java:39] - TestStep 2:Create a bot that sends an email to another Gmail account (input: to-email)
+2020-06-29 14:02:27,422[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:27,423[INFO ] [main] [XMLObjectRepository_Web.java:116] - Locator Value :By.linkText: Create a Bot
+2020-06-29 14:02:27,481[INFO ] [main] [XMLObjectRepository_Web.java:116] - Locator Value :By.linkText: Create a Bot
+2020-06-29 14:02:27,642[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:27,642[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 30Secs..
+2020-06-29 14:02:27,645[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //h5[text()='Connected Apps']/../following-sibling::div[1]//span[text()='Gmail']
+2020-06-29 14:02:38,050[INFO ] [main] [WebKeywords.java:1377] - Element is not visible..
+2020-06-29 14:02:38,060[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //h5[text()='Connected Apps']/../following-sibling::div[1]//span[text()='Gmail']
+2020-06-29 14:02:39,975[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-06-29 14:02:39,975[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:39,978[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //h5[text()='Connected Apps']/../following-sibling::div[1]//span[text()='Gmail']
+2020-06-29 14:02:40,026[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //h5[text()='Connected Apps']/../following-sibling::div[1]//span[text()='Gmail']
+2020-06-29 14:02:40,141[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:40,141[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtTriggerEvent
+2020-06-29 14:02:40,144[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[text()='Select the trigger event']/../following-sibling::ul//form/input
+2020-06-29 14:02:41,293[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[text()='Select the trigger event']/../following-sibling::ul//form/input
+2020-06-29 14:02:41,427[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:41,431[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@title='New Email']
+2020-06-29 14:02:41,496[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@title='New Email']
+2020-06-29 14:02:41,642[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:41,642[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:41,645[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //small[text()='Gmail folder in which to look for New Email.']/preceding-sibling::div[1]
+2020-06-29 14:02:41,830[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //small[text()='Gmail folder in which to look for New Email.']/preceding-sibling::div[1]
+2020-06-29 14:02:41,943[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:41,943[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtFolderSearch
+2020-06-29 14:02:41,945[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //small[text()='Gmail folder in which to look for New Email.']/preceding-sibling::div[1]//input
+2020-06-29 14:02:42,564[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //small[text()='Gmail folder in which to look for New Email.']/preceding-sibling::div[1]//input
+2020-06-29 14:02:42,668[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 30Secs..
+2020-06-29 14:02:42,671[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@title='INBOX']
+2020-06-29 14:02:42,731[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-06-29 14:02:42,731[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:42,742[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@title='INBOX']
+2020-06-29 14:02:42,780[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@title='INBOX']
+2020-06-29 14:02:42,873[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:42,873[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 30Secs..
+2020-06-29 14:02:42,875[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[contains(text(),'Select')]
+2020-06-29 14:02:42,920[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-06-29 14:02:42,920[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:42,922[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[contains(text(),'Select')]
+2020-06-29 14:02:42,953[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[contains(text(),'Select')]
+2020-06-29 14:02:43,092[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:43,093[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:43,095[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//aio-user-app-select-figure[@title='Gmail']//img[1])[2]
+2020-06-29 14:02:43,186[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//aio-user-app-select-figure[@title='Gmail']//img[1])[2]
+2020-06-29 14:02:43,395[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:43,396[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:43,398[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[contains(text(),'Send an Email from your account')]
+2020-06-29 14:02:43,448[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[contains(text(),'Send an Email from your account')]
+2020-06-29 14:02:43,758[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:43,758[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:43,760[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'From Name')]/../following-sibling::div[1]//button
+2020-06-29 14:02:43,795[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'From Name')]/../following-sibling::div[1]//button
+2020-06-29 14:02:43,915[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:43,915[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:43,918[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[text()='Input Fields']/following-sibling::div//span[text()='From Name'])[2]
+2020-06-29 14:02:43,970[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[text()='Input Fields']/following-sibling::div//span[text()='From Name'])[2]
+2020-06-29 14:02:44,092[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:44,092[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:44,095[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'From Address')]/../following-sibling::div[1]//button
+2020-06-29 14:02:44,142[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'From Address')]/../following-sibling::div[1]//button
+2020-06-29 14:02:44,249[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:44,250[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:44,252[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[text()='Input Fields']/following-sibling::div//span[text()='From Email'])[3]
+2020-06-29 14:02:44,298[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[text()='Input Fields']/following-sibling::div//span[text()='From Email'])[3]
+2020-06-29 14:02:44,494[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:44,494[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:spnToNameTrigger
+2020-06-29 14:02:44,496[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'To Name')]/../following-sibling::div/div/div
+2020-06-29 14:02:44,557[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'To Name')]/../following-sibling::div/div/div
+2020-06-29 14:02:44,705[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:spnToAddressTrigger
+2020-06-29 14:02:44,708[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'To Addresses')]/../following-sibling::div/aio-content-editable/div/div/div
+2020-06-29 14:02:44,754[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'To Addresses')]/../following-sibling::div/aio-content-editable/div/div/div
+2020-06-29 14:02:44,841[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:44,844[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Subject')]/../following-sibling::div[1]//button
+2020-06-29 14:02:44,895[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Subject')]/../following-sibling::div[1]//button
+2020-06-29 14:02:45,015[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:45,015[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 15Secs..
+2020-06-29 14:02:45,018[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@class='input-group-btn open']//li[6]//div[1]//i[1]
+2020-06-29 14:02:45,116[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-06-29 14:02:45,116[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:45,119[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@class='input-group-btn open']//li[6]//div[1]//i[1]
+2020-06-29 14:02:45,175[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@class='input-group-btn open']//li[6]//div[1]//i[1]
+2020-06-29 14:02:45,305[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:47,320[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:47,325[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Body')]/../following-sibling::div[1]//button
+2020-06-29 14:02:47,419[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Body')]/../following-sibling::div[1]//button
+2020-06-29 14:02:47,588[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:49,589[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:02:49,595[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Body')]/../following-sibling::div[1]//button
+2020-06-29 14:02:49,676[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Body')]/../following-sibling::div[1]//button
+2020-06-29 14:02:49,825[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-29 14:02:51,828[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtEmailBodyAdd
+2020-06-29 14:02:51,832[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@class='input-group-btn open']//input[@class='form-control input-sm ng-pristine ng-valid ng-touched']
+2020-06-29 14:03:12,637[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@class='input-group-btn open']//input[@class='form-control input-sm ng-pristine ng-valid ng-touched']
+2020-06-29 14:03:12,759[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 15Secs..
+2020-06-29 14:03:12,762[INFO ] [main] [XMLObjectRepository_Web.java:121] - Locator Value :By.cssSelector: div.body-scroll-container:nth-child(2) div.workflows-container div.container.workflows.wf-container-t-margin aio-workflow-card.box.fixed-heading.panel.panel-default.box-color.panel-box-install-view.active.pulsating-card.w-card-t-margin:nth-child(3) div.panel-body.scroll-box div.group div.dropdown div.input-group div.input-group-btn.open aio-searchable-dropdown.dropdown-menu div.data-items-wrapper li.data-item.link-like.highlighted:nth-child(14) div.heading.ellipsed > i:nth-child(4)
+2020-06-29 14:03:23,051[INFO ] [main] [WebKeywords.java:1377] - Element is not visible..
+2020-06-29 14:03:23,052[INFO ] [main] [XMLObjectRepository_Web.java:121] - Locator Value :By.cssSelector: div.body-scroll-container:nth-child(2) div.workflows-container div.container.workflows.wf-container-t-margin aio-workflow-card.box.fixed-heading.panel.panel-default.box-color.panel-box-install-view.active.pulsating-card.w-card-t-margin:nth-child(3) div.panel-body.scroll-box div.group div.dropdown div.input-group div.input-group-btn.open aio-searchable-dropdown.dropdown-menu div.data-items-wrapper li.data-item.link-like.highlighted:nth-child(14) div.heading.ellipsed > i:nth-child(4)
+2020-06-29 14:03:33,376[INFO ] [main] [WebKeywords.java:1377] - Element is not visible..
+2020-06-29 14:03:33,376[ERROR] [main] [WebKeywords.java:1388] - java.lang.Exception: Element wait failed.
+2020-06-29 14:03:33,377[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-29 14:03:33,379[INFO ] [main] [XMLObjectRepository_Web.java:121] - Locator Value :By.cssSelector: div.body-scroll-container:nth-child(2) div.workflows-container div.container.workflows.wf-container-t-margin aio-workflow-card.box.fixed-heading.panel.panel-default.box-color.panel-box-install-view.active.pulsating-card.w-card-t-margin:nth-child(3) div.panel-body.scroll-box div.group div.dropdown div.input-group div.input-group-btn.open aio-searchable-dropdown.dropdown-menu div.data-items-wrapper li.data-item.link-like.highlighted:nth-child(14) div.heading.ellipsed > i:nth-child(4)
+2020-06-29 14:04:33,541[ERROR] [main] [WebKeywords.java:356] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div.body-scroll-container:nth-child(2) div.workflows-container div.container.workflows.wf-container-t-margin aio-workflow-card.box.fixed-heading.panel.panel-default.box-color.panel-box-install-view.active.pulsating-card.w-card-t-margin:nth-child(3) div.panel-body.scroll-box div.group div.dropdown div.input-group div.input-group-btn.open aio-searchable-dropdown.dropdown-menu div.data-items-wrapper li.data-item.link-like.highlighted:nth-child(14) div.heading.ellipsed > i:nth-child(4) (tried for 60 second(s) with 500 MILLISECONDS interval)
+2020-06-29 14:04:43,555[DEBUG] [main] [WebKeywords.java:273] - Closing the browser
+2020-06-29 14:04:47,758[DEBUG] [main] [WebKeywords.java:311] - quiting the driver instance
+2020-06-29 14:04:47,759[INFO ] [main] [WebKeywords.java:312] - 58c74f40da1687b2bfb54a9dca806dbd
+2020-06-29 14:04:48,631[INFO ] [main] [TestListener.java:191] - ****************** End of the Suite [AutomateIOTest] ************************
+2020-06-29 14:04:48,808[INFO ] [main] [Executor.java:461] - ************ [Total Execution Time-0:2:42] *******************]

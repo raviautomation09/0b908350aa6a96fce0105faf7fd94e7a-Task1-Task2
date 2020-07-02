@@ -1,0 +1,98 @@
+2020-06-30 23:46:25,980[INFO ] [main] [MainDriver.java:75] - Creating object repository object....
+2020-06-30 23:46:25,989[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-06-30 23:46:25,989[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-06-30 23:46:25,989[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T AutomateIOTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-06-30 23:46:25,990[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-06-30 23:46:25,990[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-06-30 23:46:26,019[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-06-30 23:46:26,020[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-06-30 23:46:26,020[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T PerformTask2       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-06-30 23:46:26,020[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-06-30 23:46:26,021[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-06-30 23:46:26,145[DEBUG] [main] [MainDriver.java:139] - Opening browser
+2020-06-30 23:46:41,575[INFO ] [main] [AutomateIOTest.java:59] - Fetching the login credentials..
+2020-06-30 23:46:41,579[INFO ] [main] [AutomateIOTest.java:63] - TestStep 1:Login to application
+2020-06-30 23:46:41,585[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtEmailID
+2020-06-30 23:46:41,681[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: email
+2020-06-30 23:46:41,758[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: email
+2020-06-30 23:46:41,926[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtPassword
+2020-06-30 23:46:41,928[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: password
+2020-06-30 23:46:41,975[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: password
+2020-06-30 23:46:42,076[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-06-30 23:46:42,078[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()='LOGIN']
+2020-06-30 23:46:42,130[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()='LOGIN']
+2020-06-30 23:46:42,232[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-06-30 23:46:42,237[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 30Secs..
+2020-06-30 23:46:42,239[INFO ] [main] [XMLObjectRepository_Web.java:116] - Locator Value :By.linkText: Create a Bot
+2020-06-30 23:46:45,437[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-06-30 23:46:50,836[INFO ] [main] [ServicesKeywords.java:55] - Loading URL :https://api.automate.io/auth/login
+2020-06-30 23:46:50,836[INFO ] [main] [ServicesKeywords.java:56] - Request is :Login
+2020-06-30 23:46:50,837[INFO ] [main] [ServicesKeywords.java:62] - Successfully loaded Below request:
+{
+  "email": "${emailID}",
+  "password": "${password}"
+}
+2020-06-30 23:46:50,839[INFO ] [main] [ServicesKeywords.java:66] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:50,840[INFO ] [main] [ServicesKeywords.java:111] - Substituting Key:emailID --> Value:raviauto09@gmail.com
+2020-06-30 23:46:50,840[INFO ] [main] [ServicesKeywords.java:113] - Substituted payLoad is:{"email": "raviauto09@gmail.com", "password": "${password}"}
+2020-06-30 23:46:50,840[INFO ] [main] [ServicesKeywords.java:114] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:50,840[INFO ] [main] [ServicesKeywords.java:111] - Substituting Key:password --> Value:2589243m
+2020-06-30 23:46:50,840[INFO ] [main] [ServicesKeywords.java:113] - Substituted payLoad is:{"email": "raviauto09@gmail.com", "password": "2589243m"}
+2020-06-30 23:46:50,840[INFO ] [main] [ServicesKeywords.java:114] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:50,841[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Content-Type:application/json
+2020-06-30 23:46:50,841[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:50,842[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Accept:application/json
+2020-06-30 23:46:50,842[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:50,842[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-06-30 23:46:50,842[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:50,842[INFO ] [main] [ServicesKeywords.java:131] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:50,842[INFO ] [main] [ServicesKeywords.java:132] - Posting Request to URL:https://api.automate.io/auth/login
+2020-06-30 23:46:53,226[INFO ] [main] [ServicesKeywords.java:138] - Response Code from the Server is:[200]
+2020-06-30 23:46:53,227[INFO ] [main] [ServicesKeywords.java:140] - Response from Server is:
+{
+  "data": {
+    "name": "Ravindra Kumar"
+  },
+  "status": "success"
+}
+2020-06-30 23:46:53,227[INFO ] [main] [ServicesKeywords.java:142] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:56,242[INFO ] [main] [ServicesKeywords.java:193] - Servercode Matched
+2020-06-30 23:46:56,355[INFO ] [main] [ServicesKeywords.java:222] - Response value fetched using Xpath [$.status] is [success]
+2020-06-30 23:46:56,356[INFO ] [main] [ServicesKeywords.java:225] - Response Validation: Matched- Actual[success] ---> Expected[success]
+2020-06-30 23:46:56,356[INFO ] [main] [ServicesKeywords.java:226] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:56,356[INFO ] [main] [AutomateIOTest.java:125] - {xsrfToken=GJEmyO9H-GLnJ8eQoFXw2FFAJdF9R_6t6YHg}
+2020-06-30 23:46:56,356[INFO ] [main] [ServicesKeywords.java:55] - Loading URL :https://api.automate.io/workflows
+2020-06-30 23:46:56,357[INFO ] [main] [ServicesKeywords.java:56] - Request is :Login
+2020-06-30 23:46:56,357[INFO ] [main] [ServicesKeywords.java:62] - Successfully loaded Below request:
+{
+  "email": "${emailID}",
+  "password": "${password}"
+}
+2020-06-30 23:46:56,357[INFO ] [main] [ServicesKeywords.java:66] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:56,357[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Content-Type:application/json
+2020-06-30 23:46:56,357[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:56,357[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Accept:application/json
+2020-06-30 23:46:56,358[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:56,358[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-06-30 23:46:56,358[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:56,358[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:x-xsrf-token:GJEmyO9H-GLnJ8eQoFXw2FFAJdF9R_6t6YHg
+2020-06-30 23:46:56,358[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:56,360[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Cookie:_hjIncludedInSample=1; path=/; domain=automate.io, __stripe_sid=0a22928b-c61f-4418-9a88-2d087ea75e4f; expires=Wed, 01 Jul 2020 12:16:44 IST; path=/; domain=.automate.io, intercom-id-mqa5mwh7=e3877a5c-0925-4677-a3ca-9f032325b5b7; expires=Sun, 28 Mar 2021 12:20:04 IST; path=/; domain=.automate.io, XSRF-TOKEN=GJEmyO9H-GLnJ8eQoFXw2FFAJdF9R_6t6YHg; path=/; domain=.automate.io;secure;, intercom-session-mqa5mwh7=U01KNTZNNUoveVhDYzk0b2pRV0I0THFDbndQZG5PcFVLdUM4QmhodzNZRjJ6dXc2MzIzdjVtc1l0UFJ5VDdZbi0tV3k0OUxuZ1BsN0hFUTdDcW5QWjhqZz09--7539f8023a285ff78ce6e743ed3d44ef69f50520; expires=Tue, 07 Jul 2020 11:46:45 IST; path=/; domain=.automate.io, _csrf=Yk8drMVUbAjoNhl99CsyHoA5; path=/; domain=.automate.io;secure;, mp_cbd34858df3ce780f2f7ecbd10436dc6_mixpanel=%7B%22distinct_id%22%3A%20%22raviauto09%40gmail.com%22%2C%22%24device_id%22%3A%20%221730671ecc8311-04131c0094121e-4353760-100200-1730671ecc930d%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22%24user_id%22%3A%20%22raviauto09%40gmail.com%22%7D; expires=Wed, 30 Jun 2021 11:46:44 IST; path=/; domain=.automate.io, _gid=GA1.2.345492094.1593540995; expires=Wed, 01 Jul 2020 11:46:34 IST; path=/; domain=.automate.io, __stripe_mid=dcbe1485-ef1b-471d-b0a6-06408e4dac8f; expires=Wed, 30 Jun 2021 11:46:44 IST; path=/; domain=.automate.io, _hjAbsoluteSessionInProgress=1; expires=Wed, 01 Jul 2020 12:16:36 IST; path=/; domain=.automate.io, _hjid=9f7eba6c-db5e-4838-a9ed-f98d6127c85f; path=/; domain=.automate.io, _ga=GA1.2.1451136249.1593540995; expires=Thu, 30 Jun 2022 11:46:34 IST; path=/; domain=.automate.io, _gat_gtag_UA_63343321_2=1; expires=Tue, 30 Jun 2020 11:47:34 IST; path=/; domain=.automate.io
+2020-06-30 23:46:56,360[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:56,360[INFO ] [main] [ServicesKeywords.java:131] - ---------------------------------------------------------------------------------------
+2020-06-30 23:46:56,361[INFO ] [main] [ServicesKeywords.java:132] - Posting Request to URL:https://api.automate.io/workflows
+2020-06-30 23:46:58,331[INFO ] [main] [ServicesKeywords.java:138] - Response Code from the Server is:[401]
+2020-06-30 23:46:58,331[INFO ] [main] [ServicesKeywords.java:140] - Response from Server is:
+{
+  "error": {
+    "message": "Not a valid User or SessionId!"
+  },
+  "status": "error"
+}
+2020-06-30 23:46:58,332[INFO ] [main] [ServicesKeywords.java:142] - ---------------------------------------------------------------------------------------
+2020-06-30 23:47:01,338[ERROR] [main] [ServicesKeywords.java:196] - Server code did not matched: Expected[200] ---> Actual[401]
+2020-06-30 23:47:01,345[ERROR] [main] [TestListener.java:30] - ***** Error PerformTask2 test has failed *****
+2020-06-30 23:47:01,347[ERROR] [main] [TestListener.java:42] - Closing Driver Object:ChromeDriver: chrome on XP (null)
+2020-06-30 23:47:01,356[ERROR] [main] [TestListener.java:78] - Closing the driver...ChromeDriver: chrome on XP (null)
+2020-06-30 23:47:01,391[INFO ] [main] [TestListener.java:191] - ****************** End of the Suite [AutomateIOTest] ************************
+2020-06-30 23:47:01,586[INFO ] [main] [Executor.java:461] - ************ [Total Execution Time-0:0:38] *******************]

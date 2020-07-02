@@ -1,0 +1,115 @@
+{
+  "actions": [
+    {
+      "id": "aio_w_k5yxbb1bai1np_5ef8ea6a1645f56c03223643_send_mail",
+      "params": [
+        {
+          "data": {
+            "value": "plain"
+          },
+          "dataType": "string",
+          "id": "contentType",
+          "inputType": "select",
+          "datatype": "string",
+          "required": true,
+          "value": "plain"
+        },
+        {
+          "id": "fromName",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"fromName\",\"fieldName\":\"From Name\"}]]"
+          },
+          "datatype": "string",
+          "required": false,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"fromName\",\"fieldName\":\"From Name\"}]]"
+        },
+        {
+          "id": "from",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"toEmail\",\"fieldName\":\"To Email\"}]]"
+          },
+          "datatype": "string",
+          "required": false,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"toEmail\",\"fieldName\":\"To Email\"}]]"
+        },
+        {
+          "id": "toName",
+          "inputType": "input",
+          "data": {
+            "value": "Ravindra Kumar"
+          },
+          "datatype": "string",
+          "required": false,
+          "value": "Ravindra Kumar"
+        },
+        {
+          "id": "to",
+          "inputType": "multiinput",
+          "data": [
+            {
+              "id": "0",
+              "value": "tewst@gmail.com"
+            }
+          ],
+          "datatype": "string",
+          "required": false
+        },
+        {
+          "id": "subject",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"Subject\",\"fieldName\":\"Subject\"}]]"
+          },
+          "datatype": "string",
+          "required": true,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"Subject\",\"fieldName\":\"Subject\"}]]"
+        },
+        {
+          "id": "email_body",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"body\",\"fieldName\":\"Body\"}]]"
+          },
+          "datatype": "string",
+          "required": true,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"body\",\"fieldName\":\"Body\"}]]"
+        }
+      ],
+      "appId": "56bdb323f3e0ce2491d66197",
+      "userappId": "5ef8ea6a1645f56c03223643",
+      "parsedSampleData": [],
+      "sampleData": {},
+      "actionId": "send_mail",
+      "dynamicResponseFields": []
+    }
+  ],
+  "name": "Gmail - New Email",
+  "status": "disabled",
+  "trigger": {
+    "id": "aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email",
+    "params": [
+      {
+        "id": "label",
+        "inputType": "select",
+        "data": {
+          "isCustom": false,
+          "name": "INBOX",
+          "value": "INBOX"
+        },
+        "datatype": "string",
+        "required": true,
+        "value": "INBOX"
+      }
+    ],
+    "appId": "56bdb323f3e0ce2491d66197",
+    "userappId": "5ef8ea6a1645f56c03223643",
+    "parsedSampleData": [],
+    "sampleData": {},
+    "triggerId": "new_email",
+    "dynamicResponseFields": []
+  },
+  "version": "1.1",
+  "webhookStatus": "disabled"
+}

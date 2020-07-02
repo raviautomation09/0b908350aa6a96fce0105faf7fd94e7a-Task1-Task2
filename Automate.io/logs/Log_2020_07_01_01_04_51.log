@@ -1,0 +1,171 @@
+2020-07-01 01:04:51,058[INFO ] [main] [MainDriver.java:75] - Creating object repository object....
+2020-07-01 01:04:51,067[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-07-01 01:04:51,067[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-07-01 01:04:51,068[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T AutomateIOTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-01 01:04:51,068[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-07-01 01:04:51,069[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-07-01 01:04:51,096[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-07-01 01:04:51,096[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-07-01 01:04:51,096[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T PerformTask2       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-01 01:04:51,097[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-07-01 01:04:51,097[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-07-01 01:04:51,223[DEBUG] [main] [MainDriver.java:139] - Opening browser
+2020-07-01 01:05:05,959[INFO ] [main] [AutomateIOTest.java:59] - Fetching the login credentials..
+2020-07-01 01:05:05,963[INFO ] [main] [AutomateIOTest.java:96] - TestStep 1:Login to application
+2020-07-01 01:05:05,966[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtEmailID
+2020-07-01 01:05:06,082[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: email
+2020-07-01 01:05:06,164[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: email
+2020-07-01 01:05:06,341[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtPassword
+2020-07-01 01:05:06,344[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: password
+2020-07-01 01:05:06,397[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: password
+2020-07-01 01:05:06,514[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-01 01:05:06,517[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()='LOGIN']
+2020-07-01 01:05:06,555[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()='LOGIN']
+2020-07-01 01:05:06,659[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-01 01:05:06,664[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 30Secs..
+2020-07-01 01:05:06,667[INFO ] [main] [XMLObjectRepository_Web.java:116] - Locator Value :By.linkText: Create a Bot
+2020-07-01 01:05:16,278[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-07-01 01:05:17,517[INFO ] [main] [ServicesKeywords.java:55] - Loading URL :https://api.automate.io/workflows
+2020-07-01 01:05:17,518[INFO ] [main] [ServicesKeywords.java:56] - Request is :CreateBot
+2020-07-01 01:05:17,519[INFO ] [main] [ServicesKeywords.java:62] - Successfully loaded Below request:
+{
+  "actions": [
+    {
+      "id": "aio_w_k5yxbb1bai1np_5ef8ea6a1645f56c03223643_send_mail",
+      "params": [
+        {
+          "data": {
+            "value": "plain"
+          },
+          "dataType": "string",
+          "id": "contentType",
+          "inputType": "select",
+          "datatype": "string",
+          "required": true,
+          "value": "plain"
+        },
+        {
+          "id": "fromName",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"fromName\",\"fieldName\":\"From Name\"}]]"
+          },
+          "datatype": "string",
+          "required": false,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"fromName\",\"fieldName\":\"From Name\"}]]"
+        },
+        {
+          "id": "from",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"toEmail\",\"fieldName\":\"To Email\"}]]"
+          },
+          "datatype": "string",
+          "required": false,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"toEmail\",\"fieldName\":\"To Email\"}]]"
+        },
+        {
+          "id": "toName",
+          "inputType": "input",
+          "data": {
+            "value": "Ravindra Kumar"
+          },
+          "datatype": "string",
+          "required": false,
+          "value": "Ravindra Kumar"
+        },
+        {
+          "id": "to",
+          "inputType": "multiinput",
+          "data": [
+            {
+              "id": "0",
+              "value": "tewst@gmail.com"
+            }
+          ],
+          "datatype": "string",
+          "required": false
+        },
+        {
+          "id": "subject",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"Subject\",\"fieldName\":\"Subject\"}]]"
+          },
+          "datatype": "string",
+          "required": true,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"Subject\",\"fieldName\":\"Subject\"}]]"
+        },
+        {
+          "id": "email_body",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"body\",\"fieldName\":\"Body\"}]]"
+          },
+          "datatype": "string",
+          "required": true,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"body\",\"fieldName\":\"Body\"}]]"
+        }
+      ],
+      "appId": "56bdb323f3e0ce2491d66197",
+      "userappId": "5ef8ea6a1645f56c03223643",
+      "parsedSampleData": [],
+      "sampleData": {},
+      "actionId": "send_mail",
+      "dynamicResponseFields": []
+    }
+  ],
+  "name": "Gmail - New Email",
+  "status": "disabled",
+  "trigger": {
+    "id": "aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email",
+    "params": [
+      {
+        "id": "label",
+        "inputType": "select",
+        "data": {
+          "isCustom": false,
+          "name": "INBOX",
+          "value": "INBOX"
+        },
+        "datatype": "string",
+        "required": true,
+        "value": "INBOX"
+      }
+    ],
+    "appId": "56bdb323f3e0ce2491d66197",
+    "userappId": "5ef8ea6a1645f56c03223643",
+    "parsedSampleData": [],
+    "sampleData": {},
+    "triggerId": "new_email",
+    "dynamicResponseFields": []
+  },
+  "version": "1.1",
+  "webhookStatus": "disabled"
+}
+2020-07-01 01:05:17,522[INFO ] [main] [ServicesKeywords.java:66] - ---------------------------------------------------------------------------------------
+2020-07-01 01:05:17,522[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Content-Type:application/json
+2020-07-01 01:05:17,523[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-01 01:05:17,523[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Accept:application/json
+2020-07-01 01:05:17,523[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-01 01:05:17,524[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-07-01 01:05:17,524[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-01 01:05:17,524[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:x-xsrf-token:mkcuPDFk-nbDPNllm_fiDxZt0r3nnfDXIiE0
+2020-07-01 01:05:17,524[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-01 01:05:17,524[INFO ] [main] [ServicesKeywords.java:131] - ---------------------------------------------------------------------------------------
+2020-07-01 01:05:17,524[INFO ] [main] [ServicesKeywords.java:132] - Posting Request to URL:https://api.automate.io/workflows
+2020-07-01 01:05:19,651[INFO ] [main] [ServicesKeywords.java:138] - Response Code from the Server is:[401]
+2020-07-01 01:05:19,652[INFO ] [main] [ServicesKeywords.java:140] - Response from Server is:
+{
+  "error": {
+    "message": "Not a valid User or SessionId!"
+  },
+  "status": "error"
+}
+2020-07-01 01:05:19,652[INFO ] [main] [ServicesKeywords.java:142] - ---------------------------------------------------------------------------------------
+2020-07-01 01:05:22,655[ERROR] [main] [ServicesKeywords.java:196] - Server code did not matched: Expected[200] ---> Actual[401]
+2020-07-01 01:05:22,668[ERROR] [main] [TestListener.java:30] - ***** Error PerformTask2 test has failed *****
+2020-07-01 01:05:22,671[ERROR] [main] [TestListener.java:42] - Closing Driver Object:ChromeDriver: chrome on XP (null)
+2020-07-01 01:05:22,688[ERROR] [main] [TestListener.java:78] - Closing the driver...ChromeDriver: chrome on XP (null)
+2020-07-01 01:05:22,725[INFO ] [main] [TestListener.java:191] - ****************** End of the Suite [AutomateIOTest] ************************
+2020-07-01 01:05:22,965[INFO ] [main] [Executor.java:461] - ************ [Total Execution Time-0:0:37] *******************]

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectRepository>
+	<FeatureSet name="LoginPage">
+		<Element name="txtEmailID">
+			<id>email</id>
+		</Element>
+		<Element name="txtPassword">
+			<id>password</id>
+		</Element>
+		<Element name="btnLogin">
+			<xpath>//button[text()='LOGIN']</xpath>
+		</Element>
+		<Element name="lnkCreateBot">
+			<linktext>Create a Bot</linktext>
+		</Element>
+	</FeatureSet>
+
+	<FeatureSet name="Dashboard">
+		<Element name="lnkFromGmail">
+			<xpath>//h5[text()='Connected Apps']/../following-sibling::div[1]//span[text()='Gmail']</xpath>
+		</Element>
+		
+		<Element name="txtTriggerEvent">
+			<xpath>//span[text()='Select the trigger event']/../following-sibling::ul//form/input</xpath>
+		</Element>
+		
+		<Element name="spnTriggerEventNewEmail">
+			<xpath>//div[@title='New Email']</xpath>
+		</Element>
+		
+		<Element name="cboFolder">
+			<xpath>//small[text()='Gmail folder in which to look for New Email.']/preceding-sibling::div[1]</xpath>
+		</Element>
+		
+		<Element name="txtFolderSearch">
+			<xpath>//small[text()='Gmail folder in which to look for New Email.']/preceding-sibling::div[1]//input</xpath>
+		</Element>
+		
+		<Element name="spnINBOXList">
+			<xpath>//div[@title='INBOX']</xpath>
+		</Element>
+		
+		<Element name="cboActionApp">
+			<xpath>//span[contains(text(),'Select')]</xpath>
+		</Element>
+		
+		<Element name="spnToGmail">
+			<xpath>(//aio-user-app-select-figure[@title='Gmail']//img[1])[2]</xpath>
+		</Element>
+		
+		<Element name="spnSendEmail">
+			<xpath>//div[contains(text(),'Send an Email from your account')]</xpath>
+		</Element>
+		
+		<Element name="btnFromName">
+			<xpath>//label[contains(text(),'From Name')]/../following-sibling::div[1]//button</xpath>
+		</Element>
+		
+		<Element name="spnFromNameTrigger">
+			<xpath>(//div[text()='Input Fields']/following-sibling::div//span[text()='From Name'])[2]</xpath>
+		</Element>
+		
+		<Element name="btnFromAddresTrigger">
+			<xpath>//label[contains(text(),'From Address')]/../following-sibling::div[1]//button</xpath>
+		</Element>
+		
+		<Element name="spnAddressTrigger">
+			<xpath>(//div[text()='Input Fields']/following-sibling::div//span[text()='From Email'])[3]</xpath>
+		</Element>
+		
+		<Element name="spnToNameTrigger">
+			<xpath>//label[contains(text(),'To Name')]/../following-sibling::div/div/div</xpath>
+		</Element>
+
+		<Element name="spnToAddressTrigger">
+			<xpath>//label[contains(text(),'To Addresses')]/../following-sibling::div/aio-content-editable/div/div/div</xpath>
+		</Element>
+		
+		<Element name="btnSubjectAdd">
+			<xpath>//label[contains(text(),'Subject')]/../following-sibling::div[1]//button</xpath>
+		</Element>
+		
+		<Element name="btnSubjectAddTrigger">
+			<xpath>//div[@class='input-group-btn open']//li[6]//div[1]//i[1]</xpath>
+		</Element>
+		
+		<Element name="btnEmailBodyAdd">
+			<xpath>//label[contains(text(),'Body')]/../following-sibling::div[1]//button</xpath>
+		</Element>
+		
+		<Element name="txtEmailBodyAdd">
+			<xpath>//div[@class='input-group-btn open']//input[@class='form-control input-sm ng-pristine ng-valid ng-touched']</xpath>
+		</Element>
+		
+		<Element name="btnEmailBodyTrigger">
+			<xpath>(//div[@title='Body']//i[contains(text(),'trigger')])[9]</xpath>
+		</Element>
+		
+		<Element name="btnSaveBot">
+			<xpath>//a[@class='btn btn-cta1 mw6 pull-right']</xpath>
+		</Element>
+		
+		<Element name="spnOFFBot">
+			<xpath>//span[@class='text text-off']</xpath>
+		</Element>
+		<Element name="btnImDone">
+			<xpath>//button[text()="I'm Done"]</xpath>
+		</Element>
+	</FeatureSet>
+</ObjectRepository>
