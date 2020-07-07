@@ -83,10 +83,7 @@ public class AutomateIOTest extends MainDriver {
 		CustomAssertion.AssertTrue("Verify the OrganizationId", 
 				keywords.user_verifies_response_value("success", "$.status"), 
 				"Failed: Status Success is not available");
-		System.out.println(keywords.user_gets_response_Header_value("x-csrf-token"));
 		String Cookie_ID = keywords.user_gets_response_Header_value("set-cookie");
-		System.out.println(keywords.user_gets_response_Header_value("set-cookie"));
-		System.out.println(keywords.user_gets_response_Header_value("connect.sid"));
 		logger.info(GlobalVariableMap);
 		
 		
@@ -167,10 +164,7 @@ public class AutomateIOTest extends MainDriver {
 		
 		
 		
-		/*****************************  /auth/Me api Testing *****************************/		
-		
-		/**  Logout Api Testing **/
-		
+		/*****************************  Logout Ap api Testing *****************************/
 		keywords.user_loads_a_Request("empty", CONFIG.getProperty("URI") + "/auth/logout");
 
 		// Header Substitution
