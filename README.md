@@ -8,3 +8,4 @@ Automate.io Task
 - logs reside under/logs folder
 - API request body resides under /ServicePayloads
 - Locators are available in /ObjectRepository/AutomateIO.xml
+- Execution video is in /ScriptVideos
