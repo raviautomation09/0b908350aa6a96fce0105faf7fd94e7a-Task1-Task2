@@ -2,6 +2,7 @@ package com.maf.tests;
 
 import java.util.Set;
 
+import org.apache.http.Header;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
@@ -52,16 +53,13 @@ public class AutomateIOTest extends MainDriver {
 	@Parameters({"credentials"})
 	@Test(description="Task 2: Backend API Test Automation")
 	public void PerformTask2(String credentials)throws Exception {
-		
-		WebDriver driver = setWebDriver(new Object(){}.getClass().getEnclosingMethod().getName(), "Chrome", "https://automate.io/app/login");
-		LoginPage loginPage = new LoginPage(driver);		
-		
+	
 		logger.info("Fetching the login credentials..");
 		Gson gson = new Gson();
-		Credentials cred = gson.fromJson(credentials, Credentials.class);
-		
-		
+		Credentials cred = gson.fromJson(credentials, Credentials.class);		
 		ServicesKeywords keywords = new ServicesKeywords();
+		
+		/***************************** Login API Test *****************************/
 		keywords.user_loads_a_Request("Login", CONFIG.getProperty("URI")+"/auth/login");
 		
 		//Body Substitution
@@ -85,40 +83,41 @@ public class AutomateIOTest extends MainDriver {
 		CustomAssertion.AssertTrue("Verify the OrganizationId", 
 				keywords.user_verifies_response_value("success", "$.status"), 
 				"Failed: Status Success is not available");
-		System.out.println(keywords.user_gets_response_Header_value("XSRF-TOKEN"));
+		System.out.println(keywords.user_gets_response_Header_value("x-csrf-token"));
+		String Cookie_ID = keywords.user_gets_response_Header_value("set-cookie");
+		System.out.println(keywords.user_gets_response_Header_value("set-cookie"));
+		System.out.println(keywords.user_gets_response_Header_value("connect.sid"));
 		logger.info(GlobalVariableMap);
 		
 		
 		
-		logger.info("TestStep 1:Login to application");
-		CustomAssertion.AssertTrue("Verify login success", loginPage.LoginToApplication(cred), "Failed to login");
+		/*****************************  /auth/Me api Testing *****************************/
+		keywords.user_loads_a_Request("empty", CONFIG.getProperty("URI")+"/auth/me");
+		keywords.user_addsHeader("Content-Type", "application/json");
+		keywords.user_addsHeader("Accept", "application/json");
+		keywords.user_addsHeader("Cookie", Cookie_ID);
+		// Request Post
+		keywords.user_posts_request("GET");
 		
+		// Validation
+		CustomAssertion.AssertTrue("Verify Server Response Code", keywords.user_verifies_server_code("200"),
+				"Server Code Did not matched Actual:" + ServicesKeywords.serverResponseCode + " Expected:200");
 		
-		System.out.println(driver.manage().getCookieNamed("XSRF-TOKEN"));
-		Cookie xsrf = driver.manage().getCookieNamed("XSRF-TOKEN");
+		Header[] x = keywords.client.httpResponse.getAllHeaders();
+		for (Header header : x) {
+			
+			if (header.getName().equalsIgnoreCase("Set-Cookie") && header.getValue().contains("XSRF-TOKEN")) {
+				GlobalVariableMap.put("xsrfToken", header.getValue().split(";")[0].replaceAll("XSRF-TOKEN=", ""));
+				System.out.println(header.getValue().split(";")[0].replaceAll("XSRF-TOKEN=", ""));
+				System.out.println(header.getValue());
+			}
+			System.out.println(header.getName()+":"+header.getValue());
+			
+		}
 		
-		String Cookie="";
-		for(Cookie ck : driver.manage().getCookies())							
-        {			
-			Cookie = Cookie+";"+ck.getName()+"="+ck.getValue();																									
-                         
-        }
-		System.out.println(Cookie);
-		
-		GlobalVariableMap.put("xsrfToken", xsrf.getValue());
-		driver.close();
-		driver.quit();
-		
-		
-		/**  WorkFlow Api Testing **/
+		/*****************************  WorkFlow Api Testing *****************************/
 		
 		keywords.user_loads_a_Request("CreateBot", CONFIG.getProperty("URI") + "/workflows");
-
-		// Body Substitution
-		/*
-		 * keywords.user_substitute_single_value("emailID", cred.username);
-		 * keywords.user_substitute_single_value("password", cred.password);
-		 */
 
 		// Header Substitution
 		keywords.user_addsHeader("Content-Type", "application/json");
@@ -126,7 +125,7 @@ public class AutomateIOTest extends MainDriver {
 		keywords.user_addsHeader("User-Agent",
 				"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36");
 		keywords.user_addsHeader("x-xsrf-token", GlobalVariableMap.get("xsrfToken"));
-		keywords.user_addsHeader("Cookie", Cookie);
+		keywords.user_addsHeader("Cookie", Cookie_ID);
 		
 		
 		// Request Post
@@ -152,7 +151,7 @@ public class AutomateIOTest extends MainDriver {
 		keywords.user_addsHeader("User-Agent",
 				"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36");
 		keywords.user_addsHeader("x-xsrf-token", GlobalVariableMap.get("xsrfToken"));
-		keywords.user_addsHeader("Cookie", Cookie);
+		keywords.user_addsHeader("Cookie", Cookie_ID);
 		
 		
 		// Request Post
@@ -167,6 +166,9 @@ public class AutomateIOTest extends MainDriver {
 				"Failed: Status Success is not available");
 		
 		
+		
+		/*****************************  /auth/Me api Testing *****************************/		
+		
 		/**  Logout Api Testing **/
 		
 		keywords.user_loads_a_Request("empty", CONFIG.getProperty("URI") + "/auth/logout");
@@ -176,7 +178,8 @@ public class AutomateIOTest extends MainDriver {
 		keywords.user_addsHeader("Accept", "application/json");
 		keywords.user_addsHeader("User-Agent",
 				"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36");
-		
+		keywords.user_addsHeader("Cookie", Cookie_ID);
+		keywords.user_addsHeader("x-xsrf-token", GlobalVariableMap.get("xsrfToken"));
 		// Request Post
 		keywords.user_posts_request("DELETE");
 

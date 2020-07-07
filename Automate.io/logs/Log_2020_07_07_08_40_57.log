@@ -1,0 +1,419 @@
+2020-07-07 20:40:57,366[INFO ] [main] [MainDriver.java:75] - Creating object repository object....
+2020-07-07 20:40:57,378[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-07-07 20:40:57,378[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-07-07 20:40:57,379[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T AutomateIOTest       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-07 20:40:57,379[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-07-07 20:40:57,381[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-07-07 20:40:57,413[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-07-07 20:40:57,413[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-07-07 20:40:57,414[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T PerformTask1       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-07 20:40:57,414[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-07-07 20:40:57,415[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-07-07 20:40:57,419[DEBUG] [main] [MainDriver.java:139] - Opening browser
+2020-07-07 20:41:13,453[INFO ] [main] [AutomateIOTest.java:35] - Fetching the login credentials..
+2020-07-07 20:41:13,459[INFO ] [main] [AutomateIOTest.java:40] - TestStep 1:Login to application
+2020-07-07 20:41:13,459[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtEmailID
+2020-07-07 20:41:13,568[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: email
+2020-07-07 20:41:13,659[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: email
+2020-07-07 20:41:13,869[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtPassword
+2020-07-07 20:41:13,870[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: password
+2020-07-07 20:41:13,917[INFO ] [main] [XMLObjectRepository_Web.java:106] - Locator Value :By.id: password
+2020-07-07 20:41:14,045[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:14,049[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()='LOGIN']
+2020-07-07 20:41:14,104[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()='LOGIN']
+2020-07-07 20:41:14,208[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:14,215[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 30Secs..
+2020-07-07 20:41:14,217[INFO ] [main] [XMLObjectRepository_Web.java:116] - Locator Value :By.linkText: Create a Bot
+2020-07-07 20:41:17,074[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-07-07 20:41:17,077[INFO ] [main] [AutomateIOTest.java:42] - TestStep 1: PASSED
+2020-07-07 20:41:17,078[INFO ] [main] [AutomateIOTest.java:44] - TestStep 2:Create a bot that sends an email to another Gmail account (input: to-email)
+2020-07-07 20:41:17,078[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:17,081[INFO ] [main] [XMLObjectRepository_Web.java:116] - Locator Value :By.linkText: Create a Bot
+2020-07-07 20:41:17,140[INFO ] [main] [XMLObjectRepository_Web.java:116] - Locator Value :By.linkText: Create a Bot
+2020-07-07 20:41:17,975[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:17,975[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 30Secs..
+2020-07-07 20:41:17,979[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //h5[text()='Connected Apps']/../following-sibling::div[1]//span[text()='Gmail']
+2020-07-07 20:41:19,434[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-07-07 20:41:19,434[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:19,437[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //h5[text()='Connected Apps']/../following-sibling::div[1]//span[text()='Gmail']
+2020-07-07 20:41:19,509[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //h5[text()='Connected Apps']/../following-sibling::div[1]//span[text()='Gmail']
+2020-07-07 20:41:19,775[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:19,775[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtTriggerEvent
+2020-07-07 20:41:19,779[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[text()='Select the trigger event']/../following-sibling::ul//form/input
+2020-07-07 20:41:20,949[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[text()='Select the trigger event']/../following-sibling::ul//form/input
+2020-07-07 20:41:21,085[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:21,087[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@title='New Email']
+2020-07-07 20:41:21,126[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@title='New Email']
+2020-07-07 20:41:21,331[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:21,332[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:21,334[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //small[text()='Gmail folder in which to look for New Email.']/preceding-sibling::div[1]
+2020-07-07 20:41:21,536[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //small[text()='Gmail folder in which to look for New Email.']/preceding-sibling::div[1]
+2020-07-07 20:41:21,701[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:21,702[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:txtFolderSearch
+2020-07-07 20:41:21,705[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //small[text()='Gmail folder in which to look for New Email.']/preceding-sibling::div[1]//input
+2020-07-07 20:41:22,353[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //small[text()='Gmail folder in which to look for New Email.']/preceding-sibling::div[1]//input
+2020-07-07 20:41:22,486[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 30Secs..
+2020-07-07 20:41:22,490[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@title='INBOX']
+2020-07-07 20:41:22,577[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-07-07 20:41:22,577[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:22,583[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@title='INBOX']
+2020-07-07 20:41:22,627[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@title='INBOX']
+2020-07-07 20:41:22,764[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:22,764[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 30Secs..
+2020-07-07 20:41:22,767[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[contains(text(),'Select')]
+2020-07-07 20:41:22,845[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-07-07 20:41:22,846[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:22,848[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[contains(text(),'Select')]
+2020-07-07 20:41:22,878[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[contains(text(),'Select')]
+2020-07-07 20:41:23,077[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:23,077[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:23,081[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//aio-user-app-select-figure[@title='Gmail']//img[1])[2]
+2020-07-07 20:41:23,197[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//aio-user-app-select-figure[@title='Gmail']//img[1])[2]
+2020-07-07 20:41:23,476[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:23,476[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:23,479[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[contains(text(),'Send an Email from your account')]
+2020-07-07 20:41:23,602[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[contains(text(),'Send an Email from your account')]
+2020-07-07 20:41:24,045[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:24,046[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:24,049[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'From Name')]/../following-sibling::div[1]//button
+2020-07-07 20:41:24,112[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'From Name')]/../following-sibling::div[1]//button
+2020-07-07 20:41:24,285[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:24,285[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:24,291[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[text()='Input Fields']/following-sibling::div//span[text()='From Name'])[2]
+2020-07-07 20:41:24,365[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[text()='Input Fields']/following-sibling::div//span[text()='From Name'])[2]
+2020-07-07 20:41:24,487[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:24,487[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:24,492[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'From Address')]/../following-sibling::div[1]//button
+2020-07-07 20:41:24,566[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'From Address')]/../following-sibling::div[1]//button
+2020-07-07 20:41:24,736[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:24,736[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:24,740[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[text()='Input Fields']/following-sibling::div//span[text()='From Email'])[3]
+2020-07-07 20:41:24,857[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[text()='Input Fields']/following-sibling::div//span[text()='From Email'])[3]
+2020-07-07 20:41:25,027[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:25,027[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:spnToNameTrigger
+2020-07-07 20:41:25,031[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'To Name')]/../following-sibling::div/div/div
+2020-07-07 20:41:25,099[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'To Name')]/../following-sibling::div/div/div
+2020-07-07 20:41:25,304[DEBUG] [main] [WebKeywords.java:378] - Writing in text box:spnToAddressTrigger
+2020-07-07 20:41:25,306[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'To Addresses')]/../following-sibling::div/aio-content-editable/div/div/div
+2020-07-07 20:41:25,378[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'To Addresses')]/../following-sibling::div/aio-content-editable/div/div/div
+2020-07-07 20:41:25,610[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:25,614[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Subject')]/../following-sibling::div[1]//button
+2020-07-07 20:41:25,687[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Subject')]/../following-sibling::div[1]//button
+2020-07-07 20:41:25,876[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:25,877[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 15Secs..
+2020-07-07 20:41:25,880[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@class='input-group-btn open']//li[6]//div[1]//i[1]
+2020-07-07 20:41:25,956[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-07-07 20:41:25,956[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:25,958[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@class='input-group-btn open']//li[6]//div[1]//i[1]
+2020-07-07 20:41:25,992[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //div[@class='input-group-btn open']//li[6]//div[1]//i[1]
+2020-07-07 20:41:26,183[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:28,190[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:28,193[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Body')]/../following-sibling::div[1]//button
+2020-07-07 20:41:28,274[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Body')]/../following-sibling::div[1]//button
+2020-07-07 20:41:28,428[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:28,428[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:28,432[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Body')]/../following-sibling::div[1]//button
+2020-07-07 20:41:28,489[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //label[contains(text(),'Body')]/../following-sibling::div[1]//button
+2020-07-07 20:41:28,586[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:32,663[INFO ] [main] [WebKeywords.java:1880] - Performing KeyPress:Body
+2020-07-07 20:41:34,704[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 15Secs..
+2020-07-07 20:41:34,706[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[@title='Body']//i[contains(text(),'trigger')])[9]
+2020-07-07 20:41:34,808[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-07-07 20:41:34,809[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:34,812[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[@title='Body']//i[contains(text(),'trigger')])[9]
+2020-07-07 20:41:34,851[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: (//div[@title='Body']//i[contains(text(),'trigger')])[9]
+2020-07-07 20:41:35,031[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:35,032[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:35,034[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //a[@class='btn btn-cta1 mw6 pull-right']
+2020-07-07 20:41:35,107[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //a[@class='btn btn-cta1 mw6 pull-right']
+2020-07-07 20:41:35,289[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:35,289[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 15Secs..
+2020-07-07 20:41:35,293[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[@class='text text-off']
+2020-07-07 20:41:36,539[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-07-07 20:41:36,539[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:36,543[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[@class='text text-off']
+2020-07-07 20:41:36,572[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //span[@class='text text-off']
+2020-07-07 20:41:36,673[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:36,673[DEBUG] [main] [WebKeywords.java:1360] - Waiting for an element to be visible for 15Secs..
+2020-07-07 20:41:36,675[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()="I'm Done"]
+2020-07-07 20:41:38,381[INFO ] [main] [WebKeywords.java:1372] - Element is visible..
+2020-07-07 20:41:38,382[DEBUG] [main] [WebKeywords.java:345] - Clicking on any element
+2020-07-07 20:41:38,383[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()="I'm Done"]
+2020-07-07 20:41:38,414[INFO ] [main] [XMLObjectRepository_Web.java:102] - Locator Value :By.xpath: //button[text()="I'm Done"]
+2020-07-07 20:41:38,510[DEBUG] [main] [WebKeywords.java:354] - Clicking Action Success.
+2020-07-07 20:41:38,510[DEBUG] [main] [WebKeywords.java:1151] - Verifying the text
+2020-07-07 20:41:38,536[INFO ] [main] [AutomateIOTest.java:46] - TestStep 2: PASSED
+2020-07-07 20:41:38,537[INFO ] [main] [AutomateIOTest.java:48] - Closing the driver instance..
+2020-07-07 20:41:38,537[DEBUG] [main] [WebKeywords.java:273] - Closing the browser
+2020-07-07 20:41:42,779[DEBUG] [main] [WebKeywords.java:311] - quiting the driver instance
+2020-07-07 20:41:42,779[INFO ] [main] [WebKeywords.java:312] - f5dd68d2dcc1e1641c0fb3152de280b8
+2020-07-07 20:41:45,816[INFO ] [main] [MainDriver.java:399] - Successfully closed the recording
+2020-07-07 20:41:45,819[INFO ] [main] [Log.java:15] - ****************************************************************************************
+2020-07-07 20:41:45,819[INFO ] [main] [Log.java:16] - ****************************************************************************************
+2020-07-07 20:41:45,820[INFO ] [main] [Log.java:17] - $$$$$$$$$$$$$$$$$$$$$                -S--T--A--R--T PerformTask2       $$$$$$$$$$$$$$$$$$$$$$$$$
+2020-07-07 20:41:45,820[INFO ] [main] [Log.java:18] - ****************************************************************************************
+2020-07-07 20:41:45,820[INFO ] [main] [Log.java:19] - ****************************************************************************************
+2020-07-07 20:41:45,820[INFO ] [main] [AutomateIOTest.java:57] - Fetching the login credentials..
+2020-07-07 20:41:45,822[INFO ] [main] [ServicesKeywords.java:55] - Loading URL :https://api.automate.io/auth/login
+2020-07-07 20:41:45,822[INFO ] [main] [ServicesKeywords.java:56] - Request is :Login
+2020-07-07 20:41:45,823[INFO ] [main] [ServicesKeywords.java:62] - Successfully loaded Below request:
+{
+  "email": "${emailID}",
+  "password": "${password}"
+}
+2020-07-07 20:41:45,825[INFO ] [main] [ServicesKeywords.java:66] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:45,825[INFO ] [main] [ServicesKeywords.java:111] - Substituting Key:emailID --> Value:rkumar124795@gmail.com
+2020-07-07 20:41:45,825[INFO ] [main] [ServicesKeywords.java:113] - Substituted payLoad is:{"email": "rkumar124795@gmail.com", "password": "${password}"}
+2020-07-07 20:41:45,826[INFO ] [main] [ServicesKeywords.java:114] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:45,826[INFO ] [main] [ServicesKeywords.java:111] - Substituting Key:password --> Value:2589243m
+2020-07-07 20:41:45,826[INFO ] [main] [ServicesKeywords.java:113] - Substituted payLoad is:{"email": "rkumar124795@gmail.com", "password": "2589243m"}
+2020-07-07 20:41:45,826[INFO ] [main] [ServicesKeywords.java:114] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:45,826[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Content-Type:application/json
+2020-07-07 20:41:45,826[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:45,827[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Accept:application/json
+2020-07-07 20:41:45,828[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:45,828[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-07-07 20:41:45,828[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:45,828[INFO ] [main] [ServicesKeywords.java:131] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:45,828[INFO ] [main] [ServicesKeywords.java:132] - Posting Request to URL:https://api.automate.io/auth/login
+2020-07-07 20:41:48,605[INFO ] [main] [ServicesKeywords.java:138] - Response Code from the Server is:[200]
+2020-07-07 20:41:48,606[INFO ] [main] [ServicesKeywords.java:140] - Response from Server is:
+{
+  "data": {
+    "name": "Ravi Kumar"
+  },
+  "status": "success"
+}
+2020-07-07 20:41:48,606[INFO ] [main] [ServicesKeywords.java:142] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,612[INFO ] [main] [ServicesKeywords.java:193] - Servercode Matched
+2020-07-07 20:41:51,764[INFO ] [main] [ServicesKeywords.java:222] - Response value fetched using Xpath [$.status] is [success]
+2020-07-07 20:41:51,764[INFO ] [main] [ServicesKeywords.java:225] - Response Validation: Matched- Actual[success] ---> Expected[success]
+2020-07-07 20:41:51,764[INFO ] [main] [ServicesKeywords.java:226] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,765[ERROR] [main] [ServicesKeywords.java:308] - Exception Occurred:[Ljava.lang.StackTraceElement;@5b3f3ba0
+2020-07-07 20:41:51,765[ERROR] [main] [ServicesKeywords.java:309] - 
+2020-07-07 20:41:51,765[INFO ] [main] [ServicesKeywords.java:310] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,765[INFO ] [main] [ServicesKeywords.java:305] - Fetched Header is set-cookie:connect.sid=s%3ANdjPyVjMLtH1t9ryRUmh73N5_wHu2DEM.ZHQaRsdI4TQRlvPLv8gipigm%2BUwGGKEiqhrS3N3oRYk; Path=/; Expires=Wed, 07 Jul 2021 15:11:46 GMT; HttpOnly; Secure
+2020-07-07 20:41:51,765[INFO ] [main] [ServicesKeywords.java:306] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,765[INFO ] [main] [ServicesKeywords.java:305] - Fetched Header is set-cookie:connect.sid=s%3ANdjPyVjMLtH1t9ryRUmh73N5_wHu2DEM.ZHQaRsdI4TQRlvPLv8gipigm%2BUwGGKEiqhrS3N3oRYk; Path=/; Expires=Wed, 07 Jul 2021 15:11:46 GMT; HttpOnly; Secure
+2020-07-07 20:41:51,765[INFO ] [main] [ServicesKeywords.java:306] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,766[ERROR] [main] [ServicesKeywords.java:308] - Exception Occurred:[Ljava.lang.StackTraceElement;@ddf20fd
+2020-07-07 20:41:51,766[ERROR] [main] [ServicesKeywords.java:309] - 
+2020-07-07 20:41:51,766[INFO ] [main] [ServicesKeywords.java:310] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,767[INFO ] [main] [AutomateIOTest.java:90] - {}
+2020-07-07 20:41:51,768[INFO ] [main] [ServicesKeywords.java:55] - Loading URL :https://api.automate.io/auth/me
+2020-07-07 20:41:51,768[INFO ] [main] [ServicesKeywords.java:56] - Request is :empty
+2020-07-07 20:41:51,768[INFO ] [main] [ServicesKeywords.java:66] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,768[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Content-Type:application/json
+2020-07-07 20:41:51,769[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,769[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Accept:application/json
+2020-07-07 20:41:51,769[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,769[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Cookie:connect.sid=s%3ANdjPyVjMLtH1t9ryRUmh73N5_wHu2DEM.ZHQaRsdI4TQRlvPLv8gipigm%2BUwGGKEiqhrS3N3oRYk; Path=/; Expires=Wed, 07 Jul 2021 15:11:46 GMT; HttpOnly; Secure
+2020-07-07 20:41:51,769[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,770[INFO ] [main] [ServicesKeywords.java:131] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:51,770[INFO ] [main] [ServicesKeywords.java:132] - Posting Request to URL:https://api.automate.io/auth/me
+2020-07-07 20:41:53,545[INFO ] [main] [ServicesKeywords.java:159] - Response Code from the Server is:[200]
+2020-07-07 20:41:53,546[INFO ] [main] [ServicesKeywords.java:161] - Response from Server is:
+{"data":{"user":{"profileData":{"companySize":"11-50","industry":"Software / IT","role":"Engineering, IT & DevOps"},"settings":{"email":{"unsubscribed":true},"emailNotifications":{"actionErrorNotification":"repeat","pollErrorNotification":"never"}},"timeZone":"GMT+0","accountStatus":"active","appList":["gmail","getresponse","google-calendar","google-hangouts-chat","google-drive","gmail","google-sheets","slack"],"_id":"5f048fe4f588195c11f86104","email":"rkumar124795@gmail.com","name":"Ravi Kumar","provider":"local","isUnverified":true,"plan":{"billingCycleStart":1594134500378,"monthlyResetDate":1594134500378,"nextResetDate":1596844799999,"actionConsumed":0,"actionLimit":100,"botLimit":5,"botConsumed":1,"pollFrequency":300000,"_id":"57556a8381d6320060a07b8f","multiStepBot":false}}},"status":"success"}
+
+2020-07-07 20:41:53,547[INFO ] [main] [ServicesKeywords.java:162] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:56,553[INFO ] [main] [ServicesKeywords.java:193] - Servercode Matched
+2020-07-07 20:41:56,554[INFO ] [main] [ServicesKeywords.java:55] - Loading URL :https://api.automate.io/workflows
+2020-07-07 20:41:56,555[INFO ] [main] [ServicesKeywords.java:56] - Request is :CreateBot
+2020-07-07 20:41:56,556[INFO ] [main] [ServicesKeywords.java:62] - Successfully loaded Below request:
+{
+  "actions": [
+    {
+      "id": "aio_w_k5yxbb1bai1np_5ef8ea6a1645f56c03223643_send_mail",
+      "params": [
+        {
+          "data": {
+            "value": "plain"
+          },
+          "dataType": "string",
+          "id": "contentType",
+          "inputType": "select",
+          "datatype": "string",
+          "required": true,
+          "value": "plain"
+        },
+        {
+          "id": "fromName",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"fromName\",\"fieldName\":\"From Name\"}]]"
+          },
+          "datatype": "string",
+          "required": false,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"fromName\",\"fieldName\":\"From Name\"}]]"
+        },
+        {
+          "id": "from",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"toEmail\",\"fieldName\":\"To Email\"}]]"
+          },
+          "datatype": "string",
+          "required": false,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"toEmail\",\"fieldName\":\"To Email\"}]]"
+        },
+        {
+          "id": "toName",
+          "inputType": "input",
+          "data": {
+            "value": "Ravindra Kumar"
+          },
+          "datatype": "string",
+          "required": false,
+          "value": "Ravindra Kumar"
+        },
+        {
+          "id": "to",
+          "inputType": "multiinput",
+          "data": [
+            {
+              "id": "0",
+              "value": "tewst@gmail.com"
+            }
+          ],
+          "datatype": "string",
+          "required": false
+        },
+        {
+          "id": "subject",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"Subject\",\"fieldName\":\"Subject\"}]]"
+          },
+          "datatype": "string",
+          "required": true,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"Subject\",\"fieldName\":\"Subject\"}]]"
+        },
+        {
+          "id": "email_body",
+          "inputType": "input",
+          "data": {
+            "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"body\",\"fieldName\":\"Body\"}]]"
+          },
+          "datatype": "string",
+          "required": true,
+          "value": "[[{\"activityId\":\"aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email\",\"appId\":\"gmail\",\"fieldId\":\"body\",\"fieldName\":\"Body\"}]]"
+        }
+      ],
+      "appId": "56bdb323f3e0ce2491d66197",
+      "userappId": "5ef8ea6a1645f56c03223643",
+      "parsedSampleData": [],
+      "sampleData": {},
+      "actionId": "send_mail",
+      "dynamicResponseFields": []
+    }
+  ],
+  "name": "Gmail - New Email",
+  "status": "disabled",
+  "trigger": {
+    "id": "aio_w_1hqn3znfzyye_5ef8ea6a1645f56c03223643_new_email",
+    "params": [
+      {
+        "id": "label",
+        "inputType": "select",
+        "data": {
+          "isCustom": false,
+          "name": "INBOX",
+          "value": "INBOX"
+        },
+        "datatype": "string",
+        "required": true,
+        "value": "INBOX"
+      }
+    ],
+    "appId": "56bdb323f3e0ce2491d66197",
+    "userappId": "5ef8ea6a1645f56c03223643",
+    "parsedSampleData": [],
+    "sampleData": {},
+    "triggerId": "new_email",
+    "dynamicResponseFields": []
+  },
+  "version": "1.1",
+  "webhookStatus": "disabled"
+}
+2020-07-07 20:41:56,557[INFO ] [main] [ServicesKeywords.java:66] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:56,557[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Content-Type:application/json
+2020-07-07 20:41:56,558[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:56,558[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Accept:application/json
+2020-07-07 20:41:56,558[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:56,559[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-07-07 20:41:56,559[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:56,559[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:x-xsrf-token:x3mJv8am-pAktjpPQYgHi807O91qGT6TG35A
+2020-07-07 20:41:56,560[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:56,560[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Cookie:connect.sid=s%3ANdjPyVjMLtH1t9ryRUmh73N5_wHu2DEM.ZHQaRsdI4TQRlvPLv8gipigm%2BUwGGKEiqhrS3N3oRYk; Path=/; Expires=Wed, 07 Jul 2021 15:11:46 GMT; HttpOnly; Secure
+2020-07-07 20:41:56,560[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:56,561[INFO ] [main] [ServicesKeywords.java:131] - ---------------------------------------------------------------------------------------
+2020-07-07 20:41:56,561[INFO ] [main] [ServicesKeywords.java:132] - Posting Request to URL:https://api.automate.io/workflows
+2020-07-07 20:41:58,330[INFO ] [main] [ServicesKeywords.java:138] - Response Code from the Server is:[200]
+2020-07-07 20:41:58,331[INFO ] [main] [ServicesKeywords.java:140] - Response from Server is:
+{
+  "data": {
+    "_id": "5f0490bcca83b35c0b2f87d2",
+    "message": "Bot successfully stored."
+  },
+  "status": "success"
+}
+2020-07-07 20:41:58,332[INFO ] [main] [ServicesKeywords.java:142] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:01,344[INFO ] [main] [ServicesKeywords.java:193] - Servercode Matched
+2020-07-07 20:42:01,345[INFO ] [main] [ServicesKeywords.java:222] - Response value fetched using Xpath [$.status] is [success]
+2020-07-07 20:42:01,345[INFO ] [main] [ServicesKeywords.java:225] - Response Validation: Matched- Actual[success] ---> Expected[success]
+2020-07-07 20:42:01,345[INFO ] [main] [ServicesKeywords.java:226] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:01,346[INFO ] [main] [ServicesKeywords.java:281] - Storing data with key [workFlowID] and value as [5f0490bcca83b35c0b2f87d2]
+2020-07-07 20:42:01,346[INFO ] [main] [ServicesKeywords.java:284] - Successfully Stored data with key [workFlowID] and value as [5f0490bcca83b35c0b2f87d2]
+2020-07-07 20:42:01,347[INFO ] [main] [ServicesKeywords.java:286] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:01,347[INFO ] [main] [ServicesKeywords.java:55] - Loading URL :https://api.automate.io/workflows/5f0490bcca83b35c0b2f87d2/enabled?skipPremiumCheck=true
+2020-07-07 20:42:01,347[INFO ] [main] [ServicesKeywords.java:56] - Request is :empty
+2020-07-07 20:42:01,347[INFO ] [main] [ServicesKeywords.java:66] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:01,347[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Content-Type:application/json
+2020-07-07 20:42:01,348[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:01,348[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Accept:application/json
+2020-07-07 20:42:01,348[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:01,348[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-07-07 20:42:01,348[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:01,349[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:x-xsrf-token:x3mJv8am-pAktjpPQYgHi807O91qGT6TG35A
+2020-07-07 20:42:01,349[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:01,349[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Cookie:connect.sid=s%3ANdjPyVjMLtH1t9ryRUmh73N5_wHu2DEM.ZHQaRsdI4TQRlvPLv8gipigm%2BUwGGKEiqhrS3N3oRYk; Path=/; Expires=Wed, 07 Jul 2021 15:11:46 GMT; HttpOnly; Secure
+2020-07-07 20:42:01,349[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:01,349[INFO ] [main] [ServicesKeywords.java:131] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:01,350[INFO ] [main] [ServicesKeywords.java:132] - Posting Request to URL:https://api.automate.io/workflows/5f0490bcca83b35c0b2f87d2/enabled?skipPremiumCheck=true
+2020-07-07 20:42:03,573[INFO ] [main] [ServicesKeywords.java:138] - Response Code from the Server is:[200]
+2020-07-07 20:42:03,574[INFO ] [main] [ServicesKeywords.java:140] - Response from Server is:
+{
+  "data": {
+    "message": "Bot successfully enabled",
+    "time": "2020-07-07T15:12:02.092Z"
+  },
+  "status": "success"
+}
+2020-07-07 20:42:03,575[INFO ] [main] [ServicesKeywords.java:142] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:06,584[INFO ] [main] [ServicesKeywords.java:193] - Servercode Matched
+2020-07-07 20:42:06,586[INFO ] [main] [ServicesKeywords.java:222] - Response value fetched using Xpath [$.status] is [success]
+2020-07-07 20:42:06,587[INFO ] [main] [ServicesKeywords.java:225] - Response Validation: Matched- Actual[success] ---> Expected[success]
+2020-07-07 20:42:06,587[INFO ] [main] [ServicesKeywords.java:226] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:06,588[INFO ] [main] [ServicesKeywords.java:55] - Loading URL :https://api.automate.io/auth/logout
+2020-07-07 20:42:06,588[INFO ] [main] [ServicesKeywords.java:56] - Request is :empty
+2020-07-07 20:42:06,589[INFO ] [main] [ServicesKeywords.java:66] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:06,589[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Content-Type:application/json
+2020-07-07 20:42:06,589[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:06,590[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Accept:application/json
+2020-07-07 20:42:06,590[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:06,591[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+2020-07-07 20:42:06,591[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:06,592[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:Cookie:connect.sid=s%3ANdjPyVjMLtH1t9ryRUmh73N5_wHu2DEM.ZHQaRsdI4TQRlvPLv8gipigm%2BUwGGKEiqhrS3N3oRYk; Path=/; Expires=Wed, 07 Jul 2021 15:11:46 GMT; HttpOnly; Secure
+2020-07-07 20:42:06,592[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:06,593[INFO ] [main] [ServicesKeywords.java:94] - Substituting header:x-xsrf-token:x3mJv8am-pAktjpPQYgHi807O91qGT6TG35A
+2020-07-07 20:42:06,593[INFO ] [main] [ServicesKeywords.java:95] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:06,593[INFO ] [main] [ServicesKeywords.java:131] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:06,594[INFO ] [main] [ServicesKeywords.java:132] - Posting Request to URL:https://api.automate.io/auth/logout
+2020-07-07 20:42:08,195[INFO ] [main] [ServicesKeywords.java:169] - Response Code from the Server is:[500]
+2020-07-07 20:42:08,196[INFO ] [main] [ServicesKeywords.java:170] - Response from Server is:
+{"error":{"message":"invalid csrf token"},"status":"error"}
+
+2020-07-07 20:42:08,196[INFO ] [main] [ServicesKeywords.java:171] - ---------------------------------------------------------------------------------------
+2020-07-07 20:42:13,215[FATAL] [main] [MainDriver.java:405] - Exception to close suite
+2020-07-07 20:42:13,255[INFO ] [main] [TestListener.java:192] - ****************** End of the Suite [AutomateIOTest] ************************
+2020-07-07 20:42:13,477[INFO ] [main] [Executor.java:461] - ************ [Total Execution Time-0:1:21] *******************]

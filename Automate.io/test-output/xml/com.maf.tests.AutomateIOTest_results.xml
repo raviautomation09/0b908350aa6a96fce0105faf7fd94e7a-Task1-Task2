@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="AutomateIOTest"
-           tests="1"
+           tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="40.753">
+           time="71.713">
   <properties />
   
   
-            <testcase name="PerformTask1" time="40.753" classname="com.maf.tests.AutomateIOTest" />
+            <testcase name="PerformTask1" time="46.331" classname="com.maf.tests.AutomateIOTest" />
+                <testcase name="PerformTask2" time="25.382" classname="com.maf.tests.AutomateIOTest" />
       
 </testsuite>
